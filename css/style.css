@@ -9153,6 +9153,9 @@ section#projects-section .image-project {
         text-transform: uppercase;
         letter-spacing: 2px; }
       @media (max-width: 767.98px) {
+        .project-videos {
+            display: grid;
+          }
         .project.img-2 .text {
           max-width: 100%;
           opacity: 1; }
@@ -9628,6 +9631,9 @@ textarea.form-control {
 .contact-section .contact-form {
   width: 100%; }
   @media (max-width: 767.98px) {
+    .contact-section .form {
+    width: 90%!important;
+}
     .contact-section .contact-form .btn-primary {
       display: block;
       width: 100%; } }
