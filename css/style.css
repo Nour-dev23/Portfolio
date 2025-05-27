@@ -84,6 +84,21 @@ abbr[data-original-title] {
   cursor: help;
   border-bottom: 0;
   text-decoration-skip-ink: none; }
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+}
+
+.owl-carousel .owl-stage-outer {
+  overflow: visible !important;
+  height: auto !important;
+}
+
+.owl-carousel .owl-stage,
+.owl-carousel .owl-item {
+  touch-action: pan-y;
+}
 
 address {
   margin-bottom: 1rem;
